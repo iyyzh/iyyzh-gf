@@ -15,5 +15,5 @@ if [-f main]; then
   chmod-R 777 ${project_name}
   BUILD_ID=DONTKILLME nohup./${project_name} >${project_name}log 2>&1 &
 else
-  echo "executable+file+not+found,quit"
+  echo "executable file not found,quit"
 fi
