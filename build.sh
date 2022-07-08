@@ -22,7 +22,7 @@ if [ -f main ]; then
 #  BUILD_ID=DONTKILLME nohup ./${project_name} >${project_name}.log 2>&1 &
 #  nohup ./${project_name} >${project_name}.log 2>&1 &
   ./iyyzh
-  echo "test ${project_name} over"
+  echo "test ./${project_name} over"
 else
   echo "executable file not found,quit"
 fi
