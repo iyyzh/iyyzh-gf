@@ -5,10 +5,10 @@ import (
 	"github.com/gogf/gf/v2/util/gconv"
 	v1 "iyyzh/api/v1"
 	"iyyzh/internal/consts"
-	"topsdk"
-	"topsdk/ability370"
-	"topsdk/ability370/domain"
-	"topsdk/ability370/request"
+	"iyyzh/sdk/topsdk"
+	"iyyzh/sdk/topsdk/ability370"
+	"iyyzh/sdk/topsdk/ability370/domain"
+	"iyyzh/sdk/topsdk/ability370/request"
 )
 
 func (s *sTop) Search(ctx context.Context, top v1.Search) (val map[string]interface{}, err error) {
