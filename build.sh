@@ -17,9 +17,9 @@ rm -rf ${project_name}.log
 if [ -f main ]; then
   echo "strat new process"
   mv main ${project_name}
-  chmod -R 777 ${project_name}
+#  chmod -R 777 ${project_name}
   #这⾥要防⽌nohup不执⾏，添加了⼀个BUILD_ID
-  nohup ./${project_name} >${project_name}.log 2>&1 &
+  BUILD_ID=DONTKILLME nohup ./${project_name} >${project_name}.log 2>&1 &
 else
   echo "executable file not found,quit"
 fi
