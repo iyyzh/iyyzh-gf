@@ -19,7 +19,7 @@ if [ -f main ]; then
   mv main ${project_name}
   chmod -R 777 ${project_name}
   #这⾥要防⽌nohup不执⾏，添加了⼀个BUILD_ID
-  BUILD_ID=DONTKILLME nohup ./${project_name} >${project_name}.log 2>&1 &
+  nohup ./${project_name} >${project_name}.log 2>&1 &
 else
   echo "executable file not found,quit"
 fi
