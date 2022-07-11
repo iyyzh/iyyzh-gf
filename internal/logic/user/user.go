@@ -3,10 +3,10 @@ package user
 import (
 	"context"
 	"github.com/gogf/gf/v2/errors/gerror"
-	"iyyzh/internal/dao"
-	"iyyzh/internal/model"
-	"iyyzh/internal/model/entity"
-	"iyyzh/internal/service"
+	"iyyzh-gf/internal/dao"
+	"iyyzh-gf/internal/model"
+	"iyyzh-gf/internal/model/entity"
+	"iyyzh-gf/internal/service"
 )
 
 type sUser struct {

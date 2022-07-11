@@ -7,7 +7,7 @@ import (
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gcmd"
 
-	"iyyzh/internal/controller"
+	"iyyzh-gf/internal/controller"
 )
 
 var (

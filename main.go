@@ -1,12 +1,12 @@
 package main
 
 import (
-	_ "iyyzh/internal/packed"
+	_ "iyyzh-gf/internal/packed"
 
 	"github.com/gogf/gf/v2/os/gctx"
-	_ "iyyzh/internal/logic"
+	_ "iyyzh-gf/internal/logic"
 
-	"iyyzh/internal/cmd"
+	"iyyzh-gf/internal/cmd"
 )
 
 func main() {

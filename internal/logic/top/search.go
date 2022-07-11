@@ -3,12 +3,12 @@ package top
 import (
 	"context"
 	"github.com/gogf/gf/v2/util/gconv"
-	v1 "iyyzh/api/v1"
-	"iyyzh/internal/consts"
-	"iyyzh/sdk/topsdk"
-	"iyyzh/sdk/topsdk/ability370"
-	"iyyzh/sdk/topsdk/ability370/domain"
-	"iyyzh/sdk/topsdk/ability370/request"
+	"iyyzh-gf/api/v1"
+	"iyyzh-gf/internal/consts"
+	"iyyzh-gf/sdk/topsdk"
+	"iyyzh-gf/sdk/topsdk/ability370"
+	"iyyzh-gf/sdk/topsdk/ability370/domain"
+	"iyyzh-gf/sdk/topsdk/ability370/request"
 )
 
 func (s *sTop) Search(ctx context.Context, top v1.Search) (val map[string]interface{}, err error) {

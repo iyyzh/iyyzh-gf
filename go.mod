@@ -1,4 +1,4 @@
-module iyyzh
+module iyyzh-gf
 
 go 1.15
 

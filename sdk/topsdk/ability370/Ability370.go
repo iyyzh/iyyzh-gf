@@ -2,10 +2,10 @@ package ability370
 
 import (
 	"errors"
-	"iyyzh/sdk/topsdk"
-	request2 "iyyzh/sdk/topsdk/ability370/request"
-	response2 "iyyzh/sdk/topsdk/ability370/response"
-	"iyyzh/sdk/topsdk/util"
+	"iyyzh-gf/sdk/topsdk"
+	request2 "iyyzh-gf/sdk/topsdk/ability370/request"
+	response2 "iyyzh-gf/sdk/topsdk/ability370/response"
+	"iyyzh-gf/sdk/topsdk/util"
 	"log"
 )
 

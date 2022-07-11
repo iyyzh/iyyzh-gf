@@ -5,7 +5,7 @@
 package dao
 
 import (
-	"iyyzh/internal/dao/internal"
+	"iyyzh-gf/internal/dao/internal"
 )
 
 // internalUserDao is internal type for wrapping internal DAO implements.

@@ -1,7 +1,7 @@
 package response
 
 import (
-	"iyyzh/sdk/topsdk/defaultability/domain"
+	"iyyzh-gf/sdk/topsdk/defaultability/domain"
 )
 
 type TaobaoKfcKeywordSearchResponse struct {

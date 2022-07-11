@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"iyyzh/internal/model"
-	"iyyzh/internal/model/entity"
+	"iyyzh-gf/internal/model"
+	"iyyzh-gf/internal/model/entity"
 )
 
 var localUser iUser

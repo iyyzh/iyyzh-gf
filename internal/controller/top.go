@@ -3,9 +3,9 @@ package controller
 import (
 	"context"
 	"github.com/gogf/gf/v2/frame/g"
-	"iyyzh/internal/service"
+	"iyyzh-gf/internal/service"
 
-	"iyyzh/api/v1"
+	"iyyzh-gf/api/v1"
 )
 
 var Top = cTop{}

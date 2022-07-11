@@ -3,6 +3,6 @@
 gfcli:
   gen:
     dao:
-        link: "mysql:root:123456@tcp(106.13.219.71:3306)/iyyzh"
+        link: "mysql:root:123456@tcp(106.13.219.71:3306)/iyyzh-gf"
         jsonCase: "CamelLower"
         tables: "user"

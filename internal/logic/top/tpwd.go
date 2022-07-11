@@ -3,9 +3,9 @@ package top
 import (
 	"context"
 	"github.com/gogf/gf/v2/util/gconv"
-	"iyyzh/sdk/topsdk"
-	"iyyzh/sdk/topsdk/ability375"
-	"iyyzh/sdk/topsdk/ability375/request"
+	"iyyzh-gf/sdk/topsdk"
+	"iyyzh-gf/sdk/topsdk/ability375"
+	"iyyzh-gf/sdk/topsdk/ability375/request"
 )
 
 func (s *sTop) Tpwd(ctx context.Context, url string) (val map[string]interface{}, err error) {

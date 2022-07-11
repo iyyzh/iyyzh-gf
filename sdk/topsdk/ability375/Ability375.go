@@ -2,10 +2,10 @@ package ability375
 
 import (
 	"errors"
-	"iyyzh/sdk/topsdk"
-	"iyyzh/sdk/topsdk/ability375/request"
-	"iyyzh/sdk/topsdk/ability375/response"
-	"iyyzh/sdk/topsdk/util"
+	"iyyzh-gf/sdk/topsdk"
+	"iyyzh-gf/sdk/topsdk/ability375/request"
+	"iyyzh-gf/sdk/topsdk/ability375/response"
+	"iyyzh-gf/sdk/topsdk/util"
 	"log"
 )
 

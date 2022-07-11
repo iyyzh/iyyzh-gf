@@ -5,8 +5,8 @@ package v1
 */
 import (
 	"github.com/gogf/gf/v2/frame/g"
-	"iyyzh/internal/model"
-	"iyyzh/internal/model/entity"
+	"iyyzh-gf/internal/model"
+	"iyyzh-gf/internal/model/entity"
 )
 
 // UserCreatReq 新建

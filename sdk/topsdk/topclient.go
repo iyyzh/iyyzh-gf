@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"iyyzh/sdk/topsdk/util"
+	"iyyzh-gf/sdk/topsdk/util"
 	"log"
 	"mime/multipart"
 	"net/http"

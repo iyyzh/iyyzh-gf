@@ -2,10 +2,10 @@ package defaultability
 
 import (
 	"errors"
-	"iyyzh/sdk/topsdk"
-	request2 "iyyzh/sdk/topsdk/defaultability/request"
-	response2 "iyyzh/sdk/topsdk/defaultability/response"
-	"iyyzh/sdk/topsdk/util"
+	"iyyzh-gf/sdk/topsdk"
+	request2 "iyyzh-gf/sdk/topsdk/defaultability/request"
+	response2 "iyyzh-gf/sdk/topsdk/defaultability/response"
+	"iyyzh-gf/sdk/topsdk/util"
 	"log"
 )
 

@@ -1,6 +1,6 @@
 package top
 
-import "iyyzh/internal/service"
+import "iyyzh-gf/internal/service"
 
 type sTop struct {
 }

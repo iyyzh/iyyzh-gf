@@ -1,8 +1,8 @@
 package request
 
 import (
-	"iyyzh/sdk/topsdk/ability370/domain"
-	"iyyzh/sdk/topsdk/util"
+	"iyyzh-gf/sdk/topsdk/ability370/domain"
+	"iyyzh-gf/sdk/topsdk/util"
 )
 
 type TaobaoTbkDgMaterialOptionalRequest struct {

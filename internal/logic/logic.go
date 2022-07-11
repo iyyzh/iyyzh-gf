@@ -5,6 +5,6 @@
 package logic
 
 import (
-	_ "iyyzh/internal/logic/user"
-	_ "iyyzh/internal/logic/top"
+	_ "iyyzh-gf/internal/logic/user"
+	_ "iyyzh-gf/internal/logic/top"
 )

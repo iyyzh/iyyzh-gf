@@ -1,5 +1,5 @@
 #局部变量(执⾏⽂件名称), 根据⾃⼰项⽬随便写
-project_name="iyyzh"
+project_name="iyyzh-gf"
 #杀掉之前正在运⾏的程序
 go_id=$(ps -ef | grep "./${project_name}" | grep -v "grep" | awk '{print $2}')
 if [ -z "$go_id" ]; then

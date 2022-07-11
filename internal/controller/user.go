@@ -2,12 +2,12 @@ package controller
 
 import (
 	"context"
-	"iyyzh/internal/model/entity"
-	"iyyzh/internal/service"
+	"iyyzh-gf/internal/model/entity"
+	"iyyzh-gf/internal/service"
 
 	_ "github.com/gogf/gf/v2/frame/g"
 
-	"iyyzh/api/v1"
+	"iyyzh-gf/api/v1"
 )
 
 // User 包装对外暴露对象
