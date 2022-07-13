@@ -26,7 +26,7 @@ func (c *cTop) Search(ctx context.Context, req *v1.TopSearchReq) (res *v1.TopSea
 }
 
 func (c *cTop) Tpwd(ctx context.Context, req *v1.TopTpwdReq) (res *v1.TopTpwdRes, err error) {
-	val, err := service.Top().Tpwd(ctx, req.Url)
+	val, err := service.Top().Tpwd(ctx, "http:"+req.Url)
 	if err != nil {
 		g.Log().Error(ctx, err)
 		return nil, err
