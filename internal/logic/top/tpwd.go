@@ -13,7 +13,7 @@ func (s *sTop) Tpwd(ctx context.Context, url string) (val map[string]interface{}
 	ability := ability375.NewAbility375(&client)
 
 	req := request.TaobaoTbkTpwdCreateRequest{}
-	req.SetUrl("http://" + url)
+	req.SetUrl(url)
 
 	resp, err := ability.TaobaoTbkTpwdCreate(&req)
 	if err != nil {
